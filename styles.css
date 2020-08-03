@@ -6,3 +6,390 @@
 * {
   box-sizing: border-box;
 }
+
+title {
+  display: none;
+}
+
+html {
+  box-sizing: border-box;
+  color: rgb(31, 31, 31);
+  -webkit-font-smoothing: antialiased;
+  font: 100% / 1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  background-color: #f4f1ef(23, 18, 94) rgb(244, 241, 239);
+  place-items: center;
+  margin-bottom: 5rem;
+}
+
+section h5 {
+  margin: 0rem;
+}
+
+section h4 {
+  margin: 0rem;
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  width: 263px;
+  height: 293px;
+}
+
+section img {
+  width: 263px;
+  height: 197px;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgb(31, 31, 31);
+  background: rgb(255, 255, 255);
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(255, 255, 255);
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+section div {
+  display: grid;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+body {
+  background-color: rgb(244, 241, 239);
+}
+
+#chicken {
+  width: 55.61px;
+  height: 38px;
+  -webkit-box-align: center;
+  align-items: center;
+  appearance: none;
+  color: rgb(190, 90, 7);
+  display: inline-flex;
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+  font-size: inherit;
+  height: auto;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-left: 0px;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(190, 90, 7);
+  border-image: initial;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+#chicken img {
+  height: 15px;
+}
+
+#sign {
+  width: 133px;
+  height: 36px;
+  margin-right: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(189, 91, 11);
+  font-weight: 400;
+  user-select: none;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 9999rem;
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+  padding: 9px, 32px;
+}
+
+#restaurants {
+  width: 99px;
+  height: 27px;
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+  box-align: center;
+  align-items: center;
+  appearance: none;
+  box-sizing: border-box;
+  color: rgb(31, 31, 31);
+  display: inline-flex;
+  font-size: 1.125rem;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-left: 1.35rem;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 1rem;
+  padding: 0px;
+}
+
+#offers {
+  width: 53.69px;
+  height: 27px;
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+  box-align: center;
+  align-items: center;
+  appearance: none;
+  box-sizing: border-box;
+  color: rgb(31, 31, 31);
+  display: inline-flex;
+  font-size: 1.125rem;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-left: 1.35rem;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 1rem;
+  padding: 0px;
+}
+
+#more {
+  width: 58px;
+  height: 23px;
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+  box-align: center;
+  align-items: center;
+  appearance: none;
+  box-sizing: border-box;
+  color: rgb(31, 31, 31);
+  display: inline-flex;
+  font-size: 1.125rem;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 1rem;
+  padding: 0px;
+}
+
+#order {
+  width: 50px;
+  height: 27px;
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+  box-align: center;
+  align-items: center;
+  appearance: none;
+  box-sizing: border-box;
+  color: rgb(31, 31, 31);
+  font-size: 1.125rem;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  background: transparent;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 1rem;
+  padding: 0px;
+}
+
+#popeyes {
+  width: 160px;
+  height: 41px;
+  pointer-events: none;
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6.25rem;
+  margin: 0rem;
+  padding-top: 3rem;
+  padding-right: 0px;
+  padding-bottom: 2rem;
+  padding-left: 0px;
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+  background: rgb(254, 125, 9);
+  color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: white;
+}
+
+#header-right-buttons {
+  display: flex;
+  width: 280px;
+  height: 38px;
+  padding: 5px;
+  align-items: center;
+}
+
+#header-left-buttons {
+  padding: 1rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+}
+
+h4 {
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-family: "chicken_sans_bold";
+  src: url("assets/fonts/ChickenSans-Bold.woff") format("woff");
+  font-size: 1rem;
+  color: rgb(189, 91, 11);
+  margin-top: -1rem;
+}
+
+#restaurant-change {
+  text-align: center;
+  font-size: 0.9375rem;
+  margin: 0rem;
+  padding: 0.1rem;
+  color: rgb(118, 118, 118);
+  font: 100% / 1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  display: block;
+  border-top: 0.08rem solid gainsboro;
+  background-color: white;
+}
+
+span.change a {
+  color: rgb(190, 90, 7);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+main {
+  padding-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+footer {
+  background-color: black;
+  padding: 3rem 2rem 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+#footer-links a {
+  font-family: "chicken_sans_bold";
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+  border-right: 0.01px solid gainsboro;
+  padding: 0 1rem 0 1rem;
+  text-decoration: none;
+}
+
+#footer-links a:nth-child(1) {
+  padding-left: 0rem;
+}
+
+#bottom a {
+  border-right: 0.01px solid gainsboro;
+  padding: 0 1rem 0 1rem;
+  font-family: "chicken_sans_bold";
+  font-size: 12px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#bottom a:nth-child(1) {
+  padding-left: 0rem;
+}
+
+#footer-text p {
+  font-family: "chicken_sans_bold";
+  font-size: 15px;
+  color: white;
+}
+
+#footer-text p:nth-child(1) {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+#love-that-chicken {
+  margin-right: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -8rem;
+}
+
+#love-that-chicken img {
+  fill: rgb(255, 255, 255);
+  width: 228px;
+  height: 178px;
+}
+
+#social-links a {
+  display: inline-block;
+  justify-content: space-between;
+  background-color: rgb(190, 90, 7);
+  text-decoration: none;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  padding-top: 0.3rem;
+  padding-left: 0.45rem;
+  margin-right: 0.75rem;
+}
+
+#social-links img {
+  fill: rgb(255, 255, 255);
+  width: 15px;
+  height: 15px;
+  align-items: center;
+}
